@@ -4,15 +4,31 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![profile pic][profile]
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hi, I'm a computer programmer and I recently graduated from UC Davis in 2018 with a Bachelor's degree in computer science. During my time at UC Davis I have taken roles as Activities Assistant and Mentor at in the UC Davis Game Development and Arts Club.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Courses:
+Some computer science classes I took at school include:
+- Artificial Intelligence
+- Operating Systems
+- Data Structures
+- Algorithm Design
+- Web Development
+- Programming Tools
 
+## Hobbies:
+- Game development
+    - I love making game in Unity. I was introduced to the Unity Game Engine when I joined the Game Development and Arts Club at Davis.
+- Linux tinkering
+    - I enjoy using the terminal and playing around the commands. My distro of choice is Arch Linux.
+- Jogging
+    - I go for mile jogs every other day to the park. It's a great way to exercise!
+- Cruising
+    - Occasionally I take my Penny nickel board for a spin. It's fun to zip around the city.
 
-[jekyll-organization]: https://github.com/jekyll
+## Goals:
+Gain experience as a web developer or as a software engineer.
+
+[profile]: /profile-small.jpg "Thomas Tran"
+{: height="100px" width="100px"}
