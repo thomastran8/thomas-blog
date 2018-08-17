@@ -16,7 +16,7 @@
 title: Thomas Tran
 email: thomastran878@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a blogging and portfolio website, I focus on topic relating to
+  This is a blogging and portfolio website, I focus on topics relating to
   computer technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
