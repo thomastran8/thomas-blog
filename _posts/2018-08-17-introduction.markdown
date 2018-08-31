@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello, World!"
-date:   2018-08-17 00:06:59 -0500
+date:   2018-08-17 00:06:59 -0800
 categories: intro website jekyll
 ---
 
