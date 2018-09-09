@@ -28,7 +28,7 @@ Some computer science classes I took at school include:
     - Occasionally I take my Penny nickel board for a spin. It's fun to zip around the city.
 
 ## Goals:
-Gain experience as a web developer or as a software engineer.
+Gain experience as a software engineer.
 
 [profile]: /profile-small.jpg "Thomas Tran"
 {: height="100px" width="100px"}
