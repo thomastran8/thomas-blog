@@ -4,8 +4,18 @@
 		<nav>
 			<ul>
 				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				<li class="resNav"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
+				<li id="resMenu">
+					<div class="dropdown" style="float:right;">
+					<button class="dropbtn"><i class="fas fa-bars"></i></button>
+					<div class="dropdown-content">
+						{% for page in site.pages %} {% if page.title %}
+						<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+						{% endif %} {% endfor %}
+					</div>
+				  </div>
+				</li>
 			</ul>
 		</nav>
 	</div>
