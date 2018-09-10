@@ -108,6 +108,7 @@ aside {
 					line-height: 20px;
 					margin-bottom: -1px;
 					box-shadow: 0;
+					outline: none;
 					&:hover,
 					&:active {
 						background: $header;
@@ -140,6 +141,7 @@ footer {
 		line-height: 20px;
 		margin-bottom: -1px;
 		box-shadow: 0;
+		outline: none;
 		&:hover,
 		&:active {
 			background: $header;
