@@ -1,0 +1,20 @@
+$content-width: 800px;
+$main-color: limegreen;
+$font-style: 'Open Sans', sans-serif;
+$font-color: black;
+$link-hover-color: $main-color;
+$heading-font: 'Muli', sans-serif;
+$heading-font-color: steelblue;
+$link-color: $heading-font-color;
+$header: rgb(48, 48, 48);
+$bg-color: rgb(240, 240, 240);
+$nav-bg-color: $bg-color;
+$nav-font-color: black;
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

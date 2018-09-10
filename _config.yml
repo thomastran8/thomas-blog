@@ -22,11 +22,29 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thomastrantaro
 github_username:  thomastran8
 
+# DEFAULT BELOW
 # Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+# markdown: kramdown
+# theme: minima
+# plugins:
+#   - jekyll-feed
+# END DEFAULT
+
+# CUSTOM SETTINGS
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+# END CUSTOM
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
