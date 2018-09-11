@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Website Updated"
-date:   2018-09-10 00:05:33 -0800
+date:   2018-09-10 05:33:00 '-0800'
 categories: website update style
 ---
 

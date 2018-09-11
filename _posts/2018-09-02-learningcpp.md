@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reviewing C++"
-date:   2018-09-02 22:00:00 -0800
+date:   2018-09-02 22:00:00 '-0800'
 categories: learning c++
 ---
 

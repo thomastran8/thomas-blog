@@ -31,6 +31,7 @@ github_username:  thomastran8
 # END DEFAULT
 
 # CUSTOM SETTINGS
+timezone: America/Los_Angeles
 sass:
   sass_dir: _sass
 include: ['_pages']
