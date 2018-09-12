@@ -218,3 +218,9 @@ footer {
 		display: none;
 	}
 }
+
+// LightGallery
+// remove underline between photos
+#lightgallery > a {
+	text-decoration: none;
+}

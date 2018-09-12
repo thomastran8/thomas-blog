@@ -1,3 +1,4 @@
+<script src="https://unpkg.com/typewriter-effect@2.1.1/dist/core.js"></script>
 <script>
 var title = document.getElementById('page-title');
 
