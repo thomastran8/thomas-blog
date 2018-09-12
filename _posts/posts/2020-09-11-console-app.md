@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "C++ Blackjack Game"
+title:  "C++ cross-compatible console app"
 date:   2018-09-11 02:40:00 '-0800'
-categories: c++ game
+categories: post
 ---
 
-Finally finished my C++ blackjack game which I followed along the learncpp.com tutorial. The main difference between mine and the website's version is that I used a different randomization technique that results in better randomization uniform.
+Finally finished my C++ blackjack console game which I followed along the learncpp.com tutorial. The main difference between mine and the website's version is that I used a different randomization technique that results in better randomization uniform.
 
 This led to an issue where following the tutorial's function of getRandomNumber() would not generate a random number but the same number every time. I took out the randomization code and put it into the caller's function which is shuffleDeck() and surprise, it works. I'm assuming it has to do with initializing the mersenne twister variable but I would need to do more testing, for now it works as is.
 

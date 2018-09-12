@@ -2,7 +2,7 @@
 layout: post
 title:  "Website Updated"
 date:   2018-09-10 05:33:00 '-0800'
-categories: website update style
+categories: post
 ---
 
 Hooray! The website now has a new look, I didn't want to deviate too far from the standard jekyll minima look so the nav bar is still very much the same but every page now has new colors, fonts, and a jumbotron on every page. I styled the jumbotron to look like a terminal, it sort of works like one too! It types out the path to the location of the website.

@@ -10,7 +10,7 @@ layout: default
 Hi, my name is Thomas and this is my website. Here I cover topics relating to programming and computer technology! I blog several times a week and post my projects here, so be sure to visit here every now and then. Cheers!
 
 <h2>Latest Post</h2>
-{% for post in site.posts limit:1 %}
+{% for post in site.categories.post limit:1 %}
 <li>
     <time>{{ post.date | date: "%b %-d, %Y" }}</time>
     <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
@@ -18,6 +18,9 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
 {% endfor %}
 
 <h2>Latest Project</h2>
+{% for post in site.categories.project limit:1 %}
 <li>
-    Coming Soon!
+    <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 </li>
+{% endfor %}

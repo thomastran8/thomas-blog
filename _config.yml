@@ -37,14 +37,6 @@ sass:
 include: ['_pages']
 kramdown:
   input: GFM
-
-defaults:
-  -
-    scope:
-      path: ""      # empty string for all files
-      type: posts   # limit to posts
-    values:
-      is_post: true # automatically set is_post=true for all posts
 # END CUSTOM
 
 # Exclude from processing.
