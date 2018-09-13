@@ -24,10 +24,10 @@ github_username:  thomastran8
 
 # DEFAULT BELOW
 # Build settings
-# markdown: kramdown
+markdown: kramdown
 # theme: minima
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
 # END DEFAULT
 
 # CUSTOM SETTINGS
