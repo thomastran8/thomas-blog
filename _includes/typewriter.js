@@ -4,42 +4,30 @@ var title = document.getElementById('page-title');
 
 var siteName = {{ page.title | jsonify }};
 
-if (siteName == null)
+if (siteName == null)   // home page
 {
     if ({{ page.path | jsonify }} == "404.html")
     {
         var typewriter = new Typewriter(title, {
-            loop: false});
+            loop: false,
+            delay: 50});
 
         typewriter.typeString("/404").start();
     }
     else
     {
         var typewriter = new Typewriter(title, {
-            loop: true});
+            loop: false,
+            delay: 50});
 
-        typewriter.typeString("Hello world!")
-            .pauseFor(2500)
-            .deleteAll()
-            .typeString("I'm a game developer")
-            .pauseFor(2500)
-            .deleteChars(14)
-            .typeString('web developer')
-            .pauseFor(2500)
-            .deleteChars(13)
-            .typeString('linux tinkerer')
-            .pauseFor(2500)
-            .deleteChars(14)
-            .typeString('problem solver')
-            .pauseFor(2500)
-            .deleteAll()
-            .start();
+        typewriter.typeString("/Home").start();
     }
 }
-else
+else    // either posts or projects
 {
     var typewriter = new Typewriter(title, {
-        loop: false});
+        loop: false,
+        delay: 50});
 
     var directory = '/';
 
@@ -53,7 +41,6 @@ else
     if (/\s/g.test(siteName))
         siteName = '\'' + siteName + '\'';
     
-    typewriter.typeString(directory+siteName)
-        .start();
+    typewriter.typeString(directory+siteName).start();
 }
 </script>

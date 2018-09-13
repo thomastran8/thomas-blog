@@ -14,6 +14,8 @@ h3 {
 	color: $heading-font-color;
 	font-family: $heading-font;
 	line-height: 1.5;
+	padding: 0;
+	margin: 0;
 }
 h1 {
 	color: $main-color;
@@ -37,8 +39,10 @@ a:hover {
 	color: $link-hover-color;
 	text-decoration: underline;
 }
-li {
+li, ul {
 	list-style-position: inside;
+	margin: 0;
+	padding-left: 15px;
 }
 header {
 	background: $header;
@@ -57,6 +61,8 @@ main {
 }
 time {
 	color: dimgray;
+	padding: 0;
+	margin: 0;
 }
 .container {
 	max-width: $content-width;
@@ -71,7 +77,6 @@ time {
 
 #profile-image {
 	height: 150px;
-	border-radius: 16px;
 }
 
 .contact {
@@ -304,3 +309,19 @@ footer {
 	overflow: hidden;
 }
 // End lightgallery
+
+// Site Images
+.post-ctn {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.post-image {
+	border: 2px solid black;
+	width: 110px;
+	height: 110px;
+	object-fit: cover;
+}
+// End Site Images

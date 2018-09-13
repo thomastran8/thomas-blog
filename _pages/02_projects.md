@@ -21,9 +21,14 @@ WalkMan <br>
 Checkout [my github](https://github.com/thomastran8) for more projects -->
 
 {% for project in site.categories.project %}
-<li>
-		<time>{{ project.date | date: "%b %-d, %Y" }}</time>
-		<h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
-		{{ project.excerpt | strip_html | truncatewords:20 }}
-</li>
+<div class="post-ctn">
+	<a href="{{ project.url | prepend: site.baseurl }}">
+		<img src="{{ project.post-image }}" alt="project image" class="post-image">
+	</a>
+	<ul>
+			<time>{{ project.date | date: "%b %-d, %Y" }}</time>
+			<h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
+			{{ project.excerpt | strip_html | truncatewords:20 }}
+	</ul>
+</div>
 {% endfor %}
