@@ -258,13 +258,12 @@ footer {
 .img-ctn img {
 	display: block;
 	position: relative;
+	-webkit-transition: transform 0.3s ease-in-out;
 }
 
 .img-ctn:hover .img-wrap {
 	background-color: black;
-	overflow: hidden;
 	img {
-		-webkit-transition: transform 0.3s ease-in-out;
 		transform: scale(1.10);
 	}
 }
@@ -285,5 +284,9 @@ footer {
 
 .img-ctn:hover .img-wrap > i {
 	display: initial;
+}
+
+.img-ctn {
+	overflow: hidden;
 }
 // End lightgallery

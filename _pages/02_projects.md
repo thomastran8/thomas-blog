@@ -24,5 +24,7 @@ Checkout [my github](https://github.com/thomastran8) for more projects -->
 <li>
 		<time>{{ project.date | date: "%b %-d, %Y" }}</time>
 		<h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
+		<!-- {{ project.excerpt | strip_html | truncatewords:20 }} -->
+		{{ project.excerpt | strip_html }}
 </li>
 {% endfor %}

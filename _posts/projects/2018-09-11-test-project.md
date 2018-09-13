@@ -39,3 +39,4 @@ categories: project
 </div>
 
 Test project, working with photo gallery
+<!--more-->

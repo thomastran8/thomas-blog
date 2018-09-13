@@ -14,6 +14,7 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
 <li>
     <time>{{ post.date | date: "%b %-d, %Y" }}</time>
     <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    {{ post.excerpt | strip_html | truncatewords:20 }}
 </li>
 {% endfor %}
 
@@ -22,5 +23,6 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
 <li>
     <time>{{ post.date | date: "%b %-d, %Y" }}</time>
     <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    {{ post.excerpt | strip_html | truncatewords:20 }}
 </li>
 {% endfor %}
