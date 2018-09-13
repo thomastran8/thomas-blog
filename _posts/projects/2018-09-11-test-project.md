@@ -6,20 +6,35 @@ categories: project
 ---
 
 <div id="lightgallery">
-    <a href="/images/cat.jpg" data-sub-html="1st cat">
-        <img style="max-width: 100%;" src="/images/cat.jpg">
+    <a href="/images/cat.jpg" data-sub-html="1st cat" class="img-ctn">
+        <div class="img-wrap">
+            <img src="/images/cat.jpg">
+            <i class="fas fa-search"></i>
+        </div>
     </a>
-    <a href="/images/cat.jpg" data-sub-html="2nd cat">
-        <img style="height: 100px;" src="/images/cat.jpg">
+    <a href="/images/cat.jpg" data-sub-html="2nd cat" class="img-ctn">
+        <div class="img-wrap">
+            <img src="/images/cat.jpg">
+            <i class="fas fa-search"></i>
+        </div>
     </a>
-    <a href="/images/cat.jpg" data-sub-html="3rd cat">
-        <img style="height: 100px;" src="/images/cat.jpg">
+    <a href="/images/cat.jpg" data-sub-html="3rd cat" class="img-ctn">
+        <div class="img-wrap">
+            <img src="/images/cat.jpg">
+            <i class="fas fa-search"></i>
+        </div>
     </a>
-    <a href="/images/cat.jpg" data-sub-html="4th cat">
-        <img style="height: 100px;" src="/images/cat.jpg">
+    <a href="/images/cat.jpg" data-sub-html="4th cat" class="img-ctn">
+        <div class="img-wrap">
+            <img src="/images/cat.jpg">
+            <i class="fas fa-search"></i>
+        </div>
     </a>
-    <a href="https://www.youtube.com/watch?v=fEzqndjwwIA" data-poster="https://img.youtube.com/vi/fEzqndjwwIA/0.jpg" data-sub-html="<h3>Some music</h3>">
-      <img style="height: 100px;" src="https://img.youtube.com/vi/fEzqndjwwIA/0.jpg"/>
+    <a href="https://www.youtube.com/watch?v=fEzqndjwwIA" data-poster="https://img.youtube.com/vi/fEzqndjwwIA/0.jpg" data-sub-html="<h3>Some music</h3>" class="img-ctn">
+        <div class="img-wrap">
+            <img src="https://img.youtube.com/vi/fEzqndjwwIA/0.jpg">
+            <i class="fas fa-search"></i>
+        </div>
     </a>
 </div>
 
