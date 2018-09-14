@@ -1,14 +1,16 @@
 $heading-font: 'Muli', sans-serif;
 $body-font: 'Open Sans', sans-serif;
 $content-width: 1000px;
-$page-padding: 20px;
+$image-size: 120px;
+$article-margin-bottom: 30px;
+$general-spacing: 20px;
+$page-padding: $general-spacing;
 $highlight: limegreen;
 $body-font-color: black;
 $heading-font-color: steelblue;
 $dark-color: rgb(48, 48, 48);		// terminal color
 $page-color: rgb(240, 240, 240);
 $link-color: $heading-font-color;
-$image-size: 100px;
 
 // Makes box sizing exact
 html {

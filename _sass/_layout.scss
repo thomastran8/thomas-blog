@@ -5,6 +5,7 @@ body {
 	font-family: $body-font;
 	font-size: 18px;							// handles paragraphs, etc.
 	background-color: rgb(221, 221, 221);
+	line-height: 1.5;
 }
 
 // Common headings
@@ -13,6 +14,7 @@ h2,
 h3 {
 	color: $heading-font-color;
 	font-family: $heading-font;
+	margin-bottom: $general-spacing;
 }
 
 // Title heading - terminal
@@ -31,6 +33,10 @@ h3 {
 	font-size: 24px;
 }
 
+p {
+	margin-bottom: $article-margin-bottom;
+}
+
 // Links
 a,
 a:visited {
@@ -42,7 +48,7 @@ a:hover {
 
 // Post listing
 ul {
-	padding-left: 15px;
+	padding-left: $general-spacing;
 }
 
 // Bullet list
@@ -52,7 +58,13 @@ li {
 
 // Date of posting
 time {
+	display: inline-block;
 	color: dimgray;
+	margin-bottom: $article-margin-bottom;
+}
+
+.post-list * {
+	margin-bottom: 0;
 }
 
 // Terminal top of page
@@ -215,6 +227,7 @@ a.icon {
 	text-decoration: none;	// remove underline between photos
 }
 
+// animations for images
 .img-ctn img {
 	display: block;
 	position: relative;
@@ -254,10 +267,9 @@ a.icon {
 	overflow: hidden;
 }
 
-// Site Images
+// Block sections of post indexes
 .post-ctn {
 	display: flex;
 	flex-direction: row;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: $general-spacing;
 }
