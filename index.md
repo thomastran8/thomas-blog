@@ -13,16 +13,17 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
 {% for post in site.categories.post limit:1 %}
 <div class="post-ctn">
     <div>
-		<a href="{{ post.url | prepend: site.baseurl }}" class="img-ctn post-image">
-			<div class="img-wrap">
-				<img src="{{ post.post-image }}" alt="post image">
-			</div>
-		</a>
-	</div>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="img-ctn post-image">
+            <div class="img-wrap">
+                <img src="{{ post.post-image }}" alt="post image">
+            </div>
+        </a>
+    </div>
     <ul class="post-list">
-        <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
+            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt | strip_html | truncatewords:10 }}</p>
+            <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" class="comment-count">Comments</a>
     </ul>
 </div>
 {% endfor %}
@@ -31,16 +32,17 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
 {% for project in site.categories.project limit:1 %}
 <div class="post-ctn">
     <div>
-		<a href="{{ project.url | prepend: site.baseurl }}" class="img-ctn post-image">
-			<div class="img-wrap">
-				<img src="{{ project.post-image }}" alt="project image">
-			</div>
-		</a>
-	</div>
+        <a href="{{ project.url | prepend: site.baseurl }}" class="img-ctn post-image">
+            <div class="img-wrap">
+                <img src="{{ project.post-image }}" alt="project image">
+            </div>
+        </a>
+    </div>
     <ul class="post-list">
         <time>{{ project.date | date: "%b %-d, %Y" }}</time>
         <h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
-        <p>{{ project.excerpt | strip_html | truncatewords:20 }}</p>
+        <p>{{ project.excerpt | strip_html | truncatewords:10 }}</p>
+        <a href="{{ project.url | prepend: site.baseurl }}#disqus_thread" class="comment-count">Comments</a>
     </ul>
 </div>
 {% endfor %}

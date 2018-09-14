@@ -6,18 +6,19 @@ permalink: /posts/
 
 {% for post in site.categories.post %}
 <div class="post-ctn">
-	<div>
-		<a href="{{ post.url | prepend: site.baseurl }}" class="img-ctn post-image">
-			<div class="img-wrap">
-				<img src="{{ post.post-image }}" alt="post image">
-			</div>
-		</a>
-	</div>
-	<ul class="post-list">
-			<time>{{ post.date | date: "%b %-d, %Y" }}</time>
-			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-			<p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
-	</ul>
+    <div>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="img-ctn post-image">
+            <div class="img-wrap">
+                <img src="{{ post.post-image }}" alt="post image">
+            </div>
+        </a>
+    </div>
+    <ul class="post-list">
+            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+            <p>{{ post.excerpt | strip_html | truncatewords:10 }}</p>
+            <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" class="comment-count">Comments</a>
+    </ul>
 </div>
 {% endfor %}
 
