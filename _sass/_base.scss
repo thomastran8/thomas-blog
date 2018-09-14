@@ -1,20 +1,19 @@
-$content-width: 800px;
-$main-color: limegreen;
-$font-style: 'Open Sans', sans-serif;
-$font-color: black;
-$link-hover-color: $main-color;
 $heading-font: 'Muli', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+$content-width: 1000px;
+$page-padding: 20px;
+$highlight: limegreen;
+$body-font-color: black;
 $heading-font-color: steelblue;
+$dark-color: rgb(48, 48, 48);		// terminal color
+$page-color: rgb(240, 240, 240);
 $link-color: $heading-font-color;
-$header: rgb(48, 48, 48);
-$bg-color: rgb(240, 240, 240);
-$nav-bg-color: $bg-color;
-$nav-font-color: $font-color;
+$image-size: 100px;
 
-*,
-*::before,
-*::after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+// Makes box sizing exact
+html {
 	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
 }

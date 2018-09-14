@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <!-- ![profile pic][profile] -->
-<img src="/images/profile-small.jpg" alt="profile-pic" class="center" id="profile-image">
+<img src="/images/profile-small.jpg" alt="profile-pic" id="profile-image">
 
 Hi, I'm a computer programmer and I recently graduated from UC Davis in 2018 with a Bachelor's degree in computer science. During my time at UC Davis I have taken roles as Activities Assistant and Mentor at in the UC Davis Game Development and Arts Club.
 

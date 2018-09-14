@@ -9,10 +9,10 @@ permalink: /posts/
 	<a href="{{ post.url | prepend: site.baseurl }}">
 		<img src="{{ post.post-image }}" alt="post image" class="post-image">
 	</a>
-	<ul>
+	<ul class="post-list">
 			<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-			{{ post.excerpt | strip_html | truncatewords:20 }}
+			<p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
 	</ul>
 </div>
 {% endfor %}

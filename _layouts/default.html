@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-
 <body>
 	{% include header.html %}
-	<div style="margin-bottom: 20px"></div>
 	<main>
 		<article>
 			{{ content }}
 		</article>
 		{% include footer.html %}
 	</main>
+	{% include nav-menu.js %}
 	{% include typewriter.js %}
 	{% include lightgallery.js %}
 </body>
