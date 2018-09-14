@@ -23,7 +23,7 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
             <time>{{ post.date | date: "%b %-d, %Y" }}</time>
             <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <p>{{ post.excerpt | strip_html | truncatewords:10 }}</p>
-            <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" class="comment-count">Comments</a>
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#disqus_thread" class="comment-count">Comments</a>
     </ul>
 </div>
 {% endfor %}
@@ -42,7 +42,7 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
         <time>{{ project.date | date: "%b %-d, %Y" }}</time>
         <h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
         <p>{{ project.excerpt | strip_html | truncatewords:10 }}</p>
-        <a href="{{ project.url | prepend: site.baseurl }}#disqus_thread" class="comment-count">Comments</a>
+        <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}#disqus_thread" class="comment-count">Comments</a>
     </ul>
 </div>
 {% endfor %}

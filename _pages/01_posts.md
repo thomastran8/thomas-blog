@@ -17,7 +17,7 @@ permalink: /posts/
             <time>{{ post.date | date: "%b %-d, %Y" }}</time>
             <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
             <p>{{ post.excerpt | strip_html | truncatewords:10 }}</p>
-            <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" class="comment-count">Comments</a>
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#disqus_thread" class="comment-count">Comments</a>
     </ul>
 </div>
 {% endfor %}
