@@ -72,7 +72,7 @@ time {
 	background-color: $dark-color;
 	padding: 0px 15px;				// prevents title getting too close to sides
 	text-align: center;				// center horizontally
-	min-height: 300px;				// expand terminal if title is too large
+	min-height: 200px;				// expand terminal if title is too large
 	display: flex;					// center vertically
 	justify-content: center;
 	align-items: center;

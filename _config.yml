@@ -41,10 +41,11 @@ kramdown:
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "_posts" # an empty string here means all files in the project
     values:
       excerpt_separator: <!--more-->
       post-image: /images/news.png
+      comments: true
 # END CUSTOM
 
 # Exclude from processing.

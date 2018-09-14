@@ -21,7 +21,7 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
 	</div>
     <ul class="post-list">
         <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-        <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        <h3><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">{{ post.title }}</a></h3>
         <p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
     </ul>
 </div>
@@ -39,7 +39,7 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
 	</div>
     <ul class="post-list">
         <time>{{ project.date | date: "%b %-d, %Y" }}</time>
-        <h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
+        <h3><a href="{{ project.url | prepend: site.baseurl }}#disqus_thread">{{ project.title }}</a></h3>
         <p>{{ project.excerpt | strip_html | truncatewords:20 }}</p>
     </ul>
 </div>

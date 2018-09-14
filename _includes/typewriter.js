@@ -31,10 +31,8 @@ else    // either posts or projects
 
     var directory = '/';
 
-    {% if page.path contains '_posts/posts/' %}
-        directory += "Posts/";
-    {% elsif page.path contains '_posts/projects/' %}
-        directory += "Projects/";
+    {% if page.path contains '_posts/posts/' or page.path contains '_posts/projects/' %}
+        directory = '';
     {% endif %}
 
     // Enclose in quotes if string has  whitespace
