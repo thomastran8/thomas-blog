@@ -12,9 +12,13 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
 <h2>Latest Post</h2>
 {% for post in site.categories.post limit:1 %}
 <div class="post-ctn">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-		<img src="{{ post.post-image }}" alt="post image" class="post-image">
-	</a>
+    <div>
+		<a href="{{ post.url | prepend: site.baseurl }}" class="img-ctn post-image">
+			<div class="img-wrap">
+				<img src="{{ post.post-image }}" alt="post image">
+			</div>
+		</a>
+	</div>
     <ul class="post-list">
         <time>{{ post.date | date: "%b %-d, %Y" }}</time>
         <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
@@ -26,9 +30,13 @@ Hi, my name is Thomas and this is my website. Here I cover topics relating to pr
 <h2>Latest Project</h2>
 {% for project in site.categories.project limit:1 %}
 <div class="post-ctn">
-    <a href="{{ project.url | prepend: site.baseurl }}">
-		<img src="{{ project.post-image }}" alt="project image" class="post-image">
-	</a>
+    <div>
+		<a href="{{ project.url | prepend: site.baseurl }}" class="img-ctn post-image">
+			<div class="img-wrap">
+				<img src="{{ project.post-image }}" alt="project image">
+			</div>
+		</a>
+	</div>
     <ul class="post-list">
         <time>{{ project.date | date: "%b %-d, %Y" }}</time>
         <h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>

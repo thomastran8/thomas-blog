@@ -6,9 +6,13 @@ permalink: /posts/
 
 {% for post in site.categories.post %}
 <div class="post-ctn">
-	<a href="{{ post.url | prepend: site.baseurl }}">
-		<img src="{{ post.post-image }}" alt="post image" class="post-image">
-	</a>
+	<div>
+		<a href="{{ post.url | prepend: site.baseurl }}" class="img-ctn post-image">
+			<div class="img-wrap">
+				<img src="{{ post.post-image }}" alt="post image">
+			</div>
+		</a>
+	</div>
 	<ul class="post-list">
 			<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>

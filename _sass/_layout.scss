@@ -156,7 +156,8 @@ a.icon {
 }
 
 // LightGallery
-#lightgallery a:first-child {
+// large image
+#lightgallery a.large-image {
 	width: 100%;
 	background-color: black;		// black side borders if image is too tall
 	max-height: 600px;				  // Prevents the image from being too long
@@ -176,7 +177,8 @@ a.icon {
 	}
 }
 
-#lightgallery a:not(:first-child) {
+// default small image
+#lightgallery a:not(.large-image) {
 	.img-wrap {
 		img {
 			height: 100px;
@@ -185,6 +187,19 @@ a.icon {
 			font-size: 40px;
 			left: calc(50% - 20px);
 			top: calc(50% - 20px);
+		}
+	}
+}
+
+// post image
+.img-ctn.post-image {
+	border: 2px solid black;
+	display: inline-block;
+	.img-wrap {
+		img {
+			width: $image-size;
+			height: $image-size;
+			object-fit: cover;
 		}
 	}
 }
@@ -206,14 +221,18 @@ a.icon {
 	-webkit-transition: transform 0.3s ease-in-out;
 }
 
-.img-ctn:hover .img-wrap {
+.img-ctn:hover:not(.post-image) .img-wrap {
 	background-color: black;
 	img {
 		transform: scale(1.10);
 	}
 }
 
-.img-ctn:hover img {
+.img-ctn:hover .img-wrap img {
+	transform: scale(1.10);
+}
+
+.img-ctn:hover:not(.post-image) img {
     opacity: 0.6;
 }
 
@@ -241,11 +260,4 @@ a.icon {
 	flex-direction: row;
 	margin-top: 30px;
 	margin-bottom: 30px;
-}
-
-.post-image {
-	border: 2px solid black;
-	width: $image-size;
-	height: $image-size;
-	object-fit: cover;
 }
