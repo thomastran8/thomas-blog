@@ -19,5 +19,5 @@
 </script>
 
 <script>
-window.onload = function() {lightGallery(document.getElementById('lightgallery'))};
+lightGallery(document.getElementById('lightgallery'));
 </script>

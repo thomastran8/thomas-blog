@@ -15,7 +15,7 @@ permalink: /posts/
 	</div>
 	<ul class="post-list">
 			<time>{{ post.date | date: "%b %-d, %Y" }}</time>
-			<h3><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">{{ post.title }}</a></h3>
+			<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 			<p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
 	</ul>
 </div>
