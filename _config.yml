@@ -59,6 +59,7 @@ defaults:
     values:
       layout: project
       categories: project
+      has_gallery: true
 # END CUSTOM
 
 # Exclude from processing.

@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-<!-- ![profile pic][profile] -->
 <img src="/images/profile-small.jpg" alt="profile-pic" id="profile-image">
 
 Hi, I'm a computer programmer and I recently graduated from UC Davis in 2018 with a Bachelor's degree in computer science. During my time at UC Davis I have taken roles as Activities Assistant and Mentor at in the UC Davis Game Development and Arts Club.
@@ -29,7 +28,4 @@ Some computer science classes I took at school include:
     - Occasionally I take my Penny nickel board for a spin. It's fun to zip around the city.
 
 ## Goals:
-Gain experience as a software engineer.
-
-<!-- [profile]: /images/profile-small.jpg "Thomas Tran"
-{: height="100px" width="100px"} -->
+- Gain experience as a software engineer.
