@@ -33,7 +33,7 @@ Checkout [my github](https://github.com/thomastran8) for more projects -->
         <time>{{ project.date | date: "%b %-d, %Y" }}</time>
         <h3><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></h3>
         <p>{{ project.excerpt | strip_html | truncatewords:10 }}</p>
-        <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}#disqus_thread" class="comment-count">Comments</a>
+        <a href="{{ project.url | prepend: site.baseurl }}" data-disqus-identifier="{{ project.id }}" class="comment-count">Comments</a>
     </ul>
 </div>
 {% endfor %}
