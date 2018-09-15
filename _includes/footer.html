@@ -1,3 +1,7 @@
 <footer>
-	<a href="#top" id="go-to-top">Go to top</a>
+	{% if page.path == "404.html" %}
+		<a href="{{ site.url | append: base.url }}">Take me home</a>
+	{% else %}
+		<a href="#top" id="go-to-top">Go to top</a>
+	{% endif %}
 </footer>

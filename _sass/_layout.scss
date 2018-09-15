@@ -56,6 +56,11 @@ li {
 	list-style: disc;
 }
 
+em {
+	font-family: $body-font;
+	font-weight: bold;
+}
+
 // Date of posting
 time {
 	display: inline-block;
