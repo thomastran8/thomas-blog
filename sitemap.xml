@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://thomasmtran.me/</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/posts/</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/projects/</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/about/</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/contact/</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/post/2018/09/14/website-v1.0.html</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/project/2018/09/12/test-pug.html</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/post/2018/09/11/console-app.html</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/post/2018/09/10/website-updated.html</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/post/2018/09/02/learningcpp.html</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/post/2018/08/31/plan.html</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/post/2018/08/17/introduction.html</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://thomasmtran.me/project/2018/09/11/test-cat.html</loc>
+  <lastmod>2018-09-15T06:41:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
