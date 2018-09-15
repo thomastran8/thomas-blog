@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% for project in site.categories.project %}
+    {% include project-list.html %}
+{% endfor %}
+
+{{ content }}

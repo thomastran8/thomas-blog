@@ -46,6 +46,19 @@ defaults:
       excerpt_separator: <!--more-->
       post-image: /images/news.png
       comments: true
+      author: Thomas Tran
+  -
+    scope:
+      path: "_posts/posts" # an empty string here means all files in the project
+    values:
+      layout: post
+      categories: post
+  -
+    scope:
+      path: "_posts/projects" # an empty string here means all files in the project
+    values:
+      layout: project
+      categories: project
 # END CUSTOM
 
 # Exclude from processing.

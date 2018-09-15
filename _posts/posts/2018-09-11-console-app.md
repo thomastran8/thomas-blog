@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "C++ cross-compatible console app"
-date:   2018-09-11 02:40:00 '-0800'
-categories: post
+date:   2018-09-11 02:40:00 '-0700'
 ---
 
 Finally finished my C++ blackjack console game which I followed along the learncpp.com tutorial. The main difference between mine and the website's version is that I used a different randomization technique that results in better randomization uniform.

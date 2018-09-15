@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Reviewing C++"
-date:   2018-09-02 22:00:00 '-0800'
-categories: post
+date:   2018-09-02 22:00:00 '-0700'
 ---
 
 Today I'm continuing my journey reviewing C++ with more attention to details and with modern C++ syntaxing. School is great for covering the basics at an accelerated pace but if I want to tackle large projects with proper design I better learn it right.

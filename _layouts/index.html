@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<h2>Latest Post</h2>
+{% for post in site.categories.post limit:1 %}
+    {% include post-list.html %}
+{% endfor %}
+
+<h2>Latest Project</h2>
+{% for project in site.categories.project limit:1 %}
+    {% include project-list.html %}
+{% endfor %}
