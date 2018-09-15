@@ -1,6 +1,7 @@
 ---
 title:  "C++ cross-compatible console app"
 date:   2018-09-11 02:40:00 '-0700'
+has_syntax: true
 ---
 
 Finally finished my C++ blackjack console game which I followed along the learncpp.com tutorial. The main difference between mine and the website's version is that I used a different randomization technique that results in better randomization uniform.
@@ -10,7 +11,8 @@ This led to an issue where following the tutorial's function of getRandomNumber(
 A final touch I added to the project is getting it to run for both Linux and Windows 64bit. This requires installing MinGW compiler on my main driver which is Arch Linux. Fortunately, Arch Linux makes it easy to install since MinGW is available on the AUR which I use my Yay package manager to download the packages.
 
 In order to compile my project for windows I run the following command in my terminal
-```
+
+```shell
 x86_64-w64-mingw32-g++ [cpp-files] -o executable-name.exe -static 
 ```
 
@@ -21,21 +23,25 @@ First get an image. I got mine from <a href"https://icons8.com/">icons8.com</a>,
 That means Gimp to the rescue! If you don't already have Gimp, I recommend getting one, it's a free photoshop alternative. Get it <a href="https://www.gimp.org/">here</a>. So I went ahead and converted it into an .ico file with Gimp using its export feature and default settings.
 
 Then I made a my.rc file
-```
+
+```shell
 vim my.rc
 ```
 and put the following information into the file
-```
+
+```shell
 id ICON "path/to/my.ico"
 ```
 
 and ran the following command in my terminal to create the .res file which I believe stands for 'resource' file
-```
+
+```shell
 x86_64-w64-mingw32-windres my.rc -O coff -o my.res
 ```
 
 Finally we are back to creating the .exe file **but** with the addition of a icon resource file
-```
+
+```shell
 x86_64-w64-mingw32-g++ [cpp-files] my.res -o executable-name.exe -static
 ```
 

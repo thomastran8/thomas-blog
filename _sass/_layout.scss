@@ -1,6 +1,5 @@
 // General settings
 body {
-	// background-color: $page-color;
 	color: $body-font-color;
 	font-family: $body-font;
 	font-size: 18px;							// handles paragraphs, etc.
@@ -14,7 +13,7 @@ h2,
 h3 {
 	color: $heading-font-color;
 	font-family: $heading-font;
-	margin-bottom: $general-spacing;
+	margin: $general-spacing 0;
 }
 
 // Title heading - terminal
@@ -34,7 +33,7 @@ h3 {
 }
 
 p {
-	margin-bottom: $article-margin-bottom;
+	margin: $article-margin 0;
 }
 
 // Links
@@ -53,9 +52,27 @@ ul {
 
 // Bullet list
 li {
-	list-style: disc;
+	list-style: initial;
+	list-style-position: inside;
 }
 
+// Numbering
+.number {
+	counter-reset: my-counter;
+	margin: $article-margin 0;
+}
+
+.number num:before {
+	content: counter(my-counter) ". ";
+	counter-increment: my-counter;
+}
+
+.number num:after {
+	content: '\a';
+	white-space: pre;
+}
+
+// Bolding
 em {
 	font-family: $body-font;
 	font-weight: bold;
@@ -65,11 +82,11 @@ em {
 time {
 	display: inline-block;
 	color: dimgray;
-	margin-bottom: $article-margin-bottom;
+	margin: $article-margin 0;
 }
 
 .post-list * {
-	margin-bottom: 0;
+	margin: 0;
 }
 
 // Terminal top of page
@@ -86,11 +103,10 @@ time {
 // Article of page
 main {
 	padding: $page-padding;
-	background-color: $page-color;
 }
 
 // Center contents
-main, .topnav, #terminal {
+main, .topnav, #terminal, footer {
 	max-width: $content-width;		// width of contents
 	margin: 0 auto;					// center the contents
 }
@@ -113,6 +129,7 @@ main, .topnav, #terminal {
 
 // Footer
 footer {
+	max-width: $content-width;
 	text-align: center;
 	padding: 40px;
 }
@@ -120,6 +137,10 @@ footer {
 // Navigation bar
 .topnav {
 	overflow: hidden;
+}
+
+// Page color
+.topnav, main, footer {
 	background-color: $page-color;
 }
 
@@ -143,6 +164,11 @@ footer {
 
 .topnav .icon {
 	display: none;
+}
+
+// Remove margin from first element in main
+article > *:first-child {
+	margin-top: 0;
 }
 
 
@@ -276,7 +302,7 @@ a.icon {
 .post-ctn {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: $general-spacing;
+	margin: $general-spacing 0;
 }
 
 .comment-count {

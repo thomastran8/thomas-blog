@@ -6,3 +6,6 @@
 {% if page.path == "index.md" or page.path == "_pages/01_posts.md" or page.path == "_pages/02_projects.md" %}
     {% include commentcnt.js %}
 {% endif %}
+{% if page.has_syntax %}
+    {% include prism-syntax.js %}
+{% endif %}

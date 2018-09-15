@@ -22,13 +22,10 @@ url: "https://thomasmtran.me" # the base hostname & protocol for your site, e.g.
 twitter_username: thomastrantaro
 github_username:  thomastran8
 
-# DEFAULT BELOW
 # Build settings
 markdown: kramdown
-# theme: minima
 plugins:
   - jekyll-feed
-# END DEFAULT
 
 # CUSTOM SETTINGS
 timezone: America/Los_Angeles
@@ -37,6 +34,7 @@ sass:
 include: ['_pages']
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
 defaults:
   -
@@ -47,6 +45,7 @@ defaults:
       post-image: /images/news.png
       comments: true
       author: Thomas Tran
+      has_syntax: false
   -
     scope:
       path: "_posts/posts" # an empty string here means all files in the project
@@ -60,7 +59,6 @@ defaults:
       layout: project
       categories: project
       has_gallery: true
-# END CUSTOM
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
