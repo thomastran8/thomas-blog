@@ -1,6 +1,8 @@
 # thomas-blog
 A blogging and portfolio website made with Jekyll
 
+www.thomasmtran.com 
+
 # How to build site
 
     docker-compose run --rm build
