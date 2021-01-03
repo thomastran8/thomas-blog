@@ -1,6 +1,7 @@
 version: "3"
 services:
-  site:
+  thomas-blog:
+    container_name: thomas-blog
     command: jekyll serve
     image: jekyll/jekyll
     volumes:
