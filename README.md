@@ -1,5 +1,5 @@
 # thomas-blog
-A blogging and portfolio website made with Jekyll
+A blogging and portfolio website made with Jekyll, host using docker.
 
 www.thomasmtran.com 
 
@@ -21,12 +21,13 @@ Finally kill the test container
 
 # How to host static website behind a reverse proxy
 
-Use linuxserver's swag docker image
+Use linuxserver's `swag` docker image
 
 https://fleet.linuxserver.io/
 
-Follow instructions to properly setup swag container on their site.
-e.g. domain name
+Follow site instructions to properly setup `swag` container.
+
+e.g. domain name, subdomains
 
 Clone the repo into `<bind-mounted-swag-config-folder>/www/`
 
