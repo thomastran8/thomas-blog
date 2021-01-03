@@ -1,6 +1,6 @@
 ---
 title:  "C++ cross-compatible console app"
-date:   2018-09-11 02:40:00 '-0700'
+date:   2018-09-11 02:40:00 '-0800'
 has_syntax: true
 ---
 
