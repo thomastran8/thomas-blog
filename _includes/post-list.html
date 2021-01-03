@@ -9,8 +9,6 @@
     <ul class="post-list">
         <time>{{ post.date | date: "%b %-d, %Y" }}</time>
         <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt | strip_html | truncatewords:10 }}</p>
-        <i class="fas fa-comment-alt comment-count"></i>
-        <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.id }}" class="comment-count">0 Comments</a>
+        <p>{{ post.excerpt | strip_html | truncatewords:20 }}</p>
     </ul>
 </div>
