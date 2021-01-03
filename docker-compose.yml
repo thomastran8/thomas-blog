@@ -1,11 +1,19 @@
 version: "3"
 services:
-  thomas-blog:
-    container_name: thomas-blog
+
+  test:
+    container_name: thomas-blog-test
     command: jekyll serve
     image: jekyll/jekyll
     volumes:
       - $PWD:/srv/jekyll
     ports:
       -   4000:4000
+
+  build:
+    container_name: thomas-blog-build
+    command: jekyll build
+    image: jekyll/jekyll
+    volumes:
+      - $PWD:/srv/jekyll
 
