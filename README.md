@@ -33,3 +33,7 @@ Clone the repo into `<bind-mounted-swag-config-folder>/www/`
 Copy `thomasblog.subdomain.conf` to subdomain folder
 
     cp thomasblog.subdomain.conf <bind-mounted-swag-config-folder>/nginx/proxy-confs
+
+Restart swag docker container
+
+    docker restart swag
