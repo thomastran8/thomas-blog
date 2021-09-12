@@ -4,7 +4,7 @@
 			<div class="topnav" id="myTopnav">
 				<a href="{{ site.url }}">{{ site.title }}</a>
 				<div>
-				{% for page in site.pages %} {% if page.title %}
+				{% for page in site.pages %} {% if page.title and page.headerbar %}
 					<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 				{% endif %} {% endfor %}
 				</div>

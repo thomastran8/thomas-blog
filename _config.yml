@@ -27,7 +27,7 @@ markdown: kramdown
 timezone: America/Los_Angeles
 sass:
   sass_dir: _sass
-include: ['_pages']
+include: ['_pages', '_pages/projects']
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -53,6 +53,20 @@ defaults:
     values:
       layout: project
       categories: project
+      has_gallery: true
+  -
+    scope:
+      path: "_posts/projects/devops" # an empty string here means all files in the project
+    values:
+      layout: project
+      categories: devops
+      has_gallery: true
+  -
+    scope:
+      path: "_posts/projects/gamedev" # an empty string here means all files in the project
+    values:
+      layout: project
+      categories: gamedev
       has_gallery: true
 
 # Exclude from processing.

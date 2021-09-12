@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Contact
+headerbar: true
 permalink: /contact/
 ---
 
 <h2> Follow me on Twitter!</h2>
-<h3 class="social-media"><i class="fab fa-twitter"></i> <a href="https://twitter.com/thomasmtran" target="_blank">thomasmtran</a></h3>
+<h3 class="social-media"><i class="fab fa-twitter"></i> <a href="https://twitter.com/thomastdev" target="_blank">thomastdev</a></h3>
 
 <h2> Follow me on Github!</h2>
 <h3 class="social-media"><i class="fab fa-github"></i> <a href="https://github.com/thomastran8" target="_blank">thomastran8</a></h3>

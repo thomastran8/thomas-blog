@@ -9,7 +9,12 @@ layout: default
     {% include post-list.html %}
 {% endfor %}
 
-<h2>Latest Project</h2>
-{% for project in site.categories.project limit:1 %}
+<h2>Latest Devops Project</h2>
+{% for project in site.categories.devops limit:1 %}
+    {% include project-list.html %}
+{% endfor %}
+
+<h2>Latest Gamedev Project</h2>
+{% for project in site.categories.gamedev limit:1 %}
     {% include project-list.html %}
 {% endfor %}
