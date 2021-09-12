@@ -1,6 +1,6 @@
 ---
 title:  "Fruit Turtle"
-date:   2018-04-01 07:00:00 '-0700'
+date:   2018-04-01 07:00:00 '-0800'
 post-image: /images/fruitturtle/fruit1.png
 ---
 
@@ -59,3 +59,4 @@ This is a PC, Android, and iOS game about collecting fruits and shooting dynamit
 <!--more-->
 
 Play the game online at <a href="https://dbelliss.itch.io/fruit-turtle">itch.io</a>, or download it for Android from the <a href="https://play.google.com/store/apps/details?id=com.GDAC.FruitTurtle">Google Play Store</a>, or download it for iOS from the <a href="https://itunes.apple.com/us/app/fruit-turtle/id1362513647?mt=8">App Store</a>.
+

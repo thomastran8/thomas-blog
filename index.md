@@ -13,8 +13,8 @@ layout: index
         </a>
     </div>
     <ul class="post-list">
-        <time>2021</time>
+        <time>{{ 'now' | date: "%Y" }}</time>
         <h3><a href="{{ '/about' | prepend: site.baseurl }}">About</a></h3>
-        <p>Thank you for visiting my website! Here, I cover system administration and game development topics! If you would like to know more about me, click this post. Cheers!</p>
+        <p>Thank you for visiting my website! Here, I cover devops and gamedev topics! If you would like to know more about me, click this post. Cheers!</p>
     </ul>
 </div>

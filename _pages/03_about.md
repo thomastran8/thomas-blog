@@ -8,13 +8,11 @@ permalink: /about/
 
 ## Introduction
 
-Hello there, allow me to introduce myself!
+I am a Devops Engineer and a Game Developer.
 
-I am a System Administrator and a Hobby Game Developer.
+My first exposure into devops was running my own Raspberry Pi cloud storage server in my college aparment. What turned out to be small project led me to discover the amazing world of GNU/Linux, Free and Open Source Software (FOSS), and configuring networks of routers and switches. I am now a proud owner of a homelab!
 
-My first exposure into system administration was running my own Raspberry Pi cloud storage server in my college aparment. What turned out to be small project ended up being a rabbit hole of discovering the amazing world of GNU/Linux, Free and Open Source Software (FOSS), and configuring routers and switches. I am now a proud owner of a homelab!
-
-As for game development, I've always had an interest in video games ranging from real-time strategies to first-person shooters. But what's better than playing them -- than to make them! Game development for me is like itching that creative urge, it takes all forms of disciplines from art, music, programming, and storytelling. It gives me appreciation for games as a work of art and to see others enjoy my games as well!
+As for game development, I've always had an interest in video games ranging from real-time strategies to first-person shooters. But what's better than playing them -- than to make them! Game development for me is like itching that creative urge, it takes all forms of disciplines from art, music, programming, and storytelling. It gives me an appreciation for games as a work of art.
 
 ## Work Experience
 
@@ -24,7 +22,7 @@ I currently work at Skydio as an IT Admin! I joined in 2018 after I graducated U
 
 - Technical Assistant, CompTechS, DeAnza Community College
 
-Before Skydio, I worked as a Technical Assistant at Comptech/OTI at DeAnza Community College.
+Before Skydio, I worked as a Technical Assistant at Comptech/OTI at DeAnza Community College. Comptech/OTI is a college internship program that prepares students for the IT field.
 
 ## Education
 
@@ -42,7 +40,7 @@ I run a homelab at my house which consists of a pfSense router, a 16-port edgesw
 
 - Game Development
 
-I do indie game development. At the moment I have an interest in 3D game development. Some engines I worked with so far is the Unity Game Engine and the Unreal Game Engine. I aim to release a small personal game every year.
+I do indie game development. At the moment I have an interest in 3D game development. Some engines I worked with so far is the Unity Game Engine and the Godot Game Engine. I post regular game development project updates on my Twitter.
 
 <br>
 <hr>
