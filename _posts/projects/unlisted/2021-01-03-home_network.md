@@ -1,6 +1,6 @@
 ---
 title:  "Home Network"
-date:   2021-01-03 04:25:00 '-0800'
+date:   2021-01-03 04:25:00 '-0700'
 post-image: /images/news.png
 ---
 

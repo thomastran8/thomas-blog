@@ -1,6 +1,6 @@
 ---
 title:  "Fruit Turtle"
-date:   2018-04-01 07:00:00 '-0800'
+date:   2018-04-01 07:00:00 '-0700'
 post-image: /images/fruitturtle/fruit1.png
 ---
 
@@ -56,7 +56,6 @@ post-image: /images/fruitturtle/fruit1.png
 </div>
 
 This is a PC, Android, and iOS game about collecting fruits and shooting dynamites! It was initially created for a Game Jam of spring 2017 by Davey Belliss and me. The game was eventually ported over to Android and iOS after it's debut at the Game Jam.
-<!--more-->
 
-Play the game online at <a href="https://dbelliss.itch.io/fruit-turtle">itch.io</a>, or download it for Android from the <a href="https://play.google.com/store/apps/details?id=com.GDAC.FruitTurtle">Google Play Store</a>, or download it for iOS from the <a href="https://itunes.apple.com/us/app/fruit-turtle/id1362513647?mt=8">App Store</a>.
+Play the game online at <a href="https://dbelliss.itch.io/fruit-turtle">itch.io</a>, or download it for Android from the <strike><a href="https://play.google.com/store/apps/details?id=com.GDAC.FruitTurtle">Google Play Store</a></strike>(broken), or download it for iOS from the <a href="https://itunes.apple.com/us/app/fruit-turtle/id1362513647?mt=8">App Store</a>.
 

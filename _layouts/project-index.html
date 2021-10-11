@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<h2>Devops</h2>
-{% for project in site.categories.devops limit:2 %}
+<h2>Software Engineering</h2>
+{% for project in site.categories.software_engineer limit:2 %}
     {% include project-list.html %}
 {% endfor %}
-<a href="/projects/devops">View all Devops Projects</a>
+<a href="/projects/software_engineer">View all Software Engineering Projects</a>
 
 <h2>Gamedev</h2>
 {% for project in site.categories.gamedev limit:2 %}

@@ -1,6 +1,6 @@
 ---
-title:  "Cat Project"
-date:   2018-09-11 04:25:00 '-0800'
+title:  "Pathfinding Simulator"
+date:   2021-10-10 10:00:00 '-0700'
 post-image: /images/cat.jpg
 ---
 
@@ -37,5 +37,5 @@ post-image: /images/cat.jpg
     </a>
 </div>
 
-Test project, working with photo gallery withs cats
+Pathfinding Simulator
 

@@ -30,7 +30,10 @@ sass:
 include: ['_pages', '_pages/projects']
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  #syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    disable: true
+highlighter: none
 
 defaults:
   -
@@ -56,10 +59,10 @@ defaults:
       has_gallery: true
   -
     scope:
-      path: "_posts/projects/devops" # an empty string here means all files in the project
+      path: "_posts/projects/software_engineer" # an empty string here means all files in the project
     values:
       layout: project
-      categories: devops
+      categories: software_engineer
       has_gallery: true
   -
     scope:
