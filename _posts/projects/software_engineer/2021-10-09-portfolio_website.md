@@ -1,6 +1,6 @@
 ---
 title:  "Portfolio Website"
-date:   2021-10-10 10:00:00 '-0700'
+date:   2021-10-09 10:00:00 '-0700'
 post-image: /images/cat.jpg
 has_syntax: true
 ---
@@ -22,7 +22,7 @@ has_syntax: true
 
 You are actually viewing the portfolio website right now! Feel free to take a look around. Click on links, visit different pages of my website. Take in the view :)
 
-Since you are on my portfolio website already, for this project's photo I included a photo of a random cat and a video of a cat sledding.
+Since you are on my portfolio website already, I included a photo of a cat and a video of a cat sledding. Enjoy!
 
 ## Purpose
 I made this website as a compliment to my resume to showcase my experience and projects in more detail here. I also post updates of what I have learned in the "Posts" section of my website.
@@ -43,7 +43,7 @@ Whenever a post is opened. A photo gallery is shown under the title banner. A ma
 
 This photo gallery uses a javascript file I imported in called "lightgallery". Whenever I create a post that needs the gallery, I include the variable "has_gallery: true" to my post's front matter to import the lightgallery.js file. This gives me the benefit of not loading unnecessary javascript files for pages that don't need them.
 
-## The zoom affect on mouse hover
+## The zoom effect on mouse hover
 Another subtle feature is the slight zoom effect when hovering over a photo. This effect is actually very simple and I made it myself. I added a zoom affect of 10% when a mouse is hovered over a photo and applies a slight darkening filter to the photo container. A magnifying icon is also overlayed over the image to let the user know that they can click on it to view the photo in a larger format. I think these small details makes the website feel more "responsive" to user input.
 
 ## Creating the code syntax highlighting
@@ -73,4 +73,11 @@ Alls fonts on all pages of my website uses Google font "Open Sans". I find this 
 If you visited my contacts page, you may notice I am using custom icons! In particular, Font Awesome icons! Font awsome provides excellent free flat UI icons to use on websites. I used these icons for my social media icons.
 
 Also -- if you look closely -- I have a custom icon for the browser tab. It's a Linux Penguin! This icon is downloaded from icons8.com an open source icon.
+
+## How it's hosted
+This website is hosted on my home server! My home server is a 16 core CPU, 32GB RAM, and 1TB SSD machine. It runs many services on it since I have a virtualization server installed on it. Hosting my web server is just one of the many services.
+
+My website is hosted in a docker container behind a reverse proxy. So it is very secure and isolated from the rest of my server. Docker also makes it easy to provision and deprovision my website quickly and consistenly since it uses a docker-compose file. I use a custom domain name for my website so the docker-compose file also spins up a ddclient service to keep my website's hostname updated to my home's public ip address.
+
+SSL certificates are also used to secure the connection between my server and the end user's browser. Let's Encrypt is used to keep my SSL certificates renewed with my custom domain name.
 

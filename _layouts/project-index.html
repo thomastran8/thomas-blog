@@ -6,12 +6,12 @@ layout: default
 {% for project in site.categories.software_engineer limit:2 %}
     {% include project-list.html %}
 {% endfor %}
-<a href="/projects/software_engineer">View all Software Engineering Projects</a>
+<a href="/projects/software_engineer">View all {{ site.categories.software_engineer | size }} Software Engineering Projects</a>
 
 <h2>Gamedev</h2>
 {% for project in site.categories.gamedev limit:2 %}
     {% include project-list.html %}
 {% endfor %}
-<a href="/projects/gamedev">View all Gamedev Projects</a>
+<a href="/projects/gamedev">View all {{ site.categories.gamedev | size }} Gamedev Projects</a>
 
 {{ content }}
